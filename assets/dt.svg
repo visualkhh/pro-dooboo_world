@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+     xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://web.resource.org/cc/"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+     xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" version="1.1" baseProfile="full" width="480px"
+     height="360px" viewBox="0 0 480 360" preserveAspectRatio="xMidYMid meet" id="svg_document"
+     style="zoom: 1;"><!-- Created with macSVG - https://macsvg.org/ - https://github.com/dsward2/macsvg/ -->
+    <title id="svg_document_title">Untitled.svg</title>
+    <defs id="svg_document_defs"></defs>
+    <g id="main_group">
+        <rect stroke="#000" id="svg_9" height="33" width="24.999985" y="150.4375" x="173.500014" stroke-width="1.5"
+              fill="#fff"></rect>
+        <rect stroke="#000" id="svg_10" height="33" width="24.999985" y="150.4375" x="349.500014" stroke-width="1.5"
+              fill="#fff"></rect>
+        <rect stroke="#000" height="157" x="187.712158px" y="103.4375px" id="svg_1" stroke-width="1.5"
+              width="177.999991" fill="#fff"></rect>
+        <rect height="20.000376" x="214.549484px" stroke-opacity="null" y="213.549484px" id="svg_64" stroke-width="1.5"
+              width="123.032618" stroke="#000" fill="#ffffff"></rect>
+        <rect stroke="#000" id="svg_5" height="100" width="30.000001" y="72.437499" x="169.5" stroke-opacity="null"
+              stroke-width="1.5" fill="#000000"></rect>
+        <rect stroke="#000" id="svg_7" height="100" width="32.000001" y="71.437499" x="345.499999" stroke-opacity="null"
+              stroke-width="1.5" fill="#000000"></rect>
+        <rect stroke="#000" transform="rotate(90.17965698242188 272.4949645996094,87.54566192626955)" id="svg_8"
+              height="197.987137" width="48.000045" y="-11.447897" x="248.494943" stroke-opacity="null"
+              stroke-width="1.5" fill="#000000"></rect>
+        <rect stroke="#000" transform="rotate(90.17965698242188 273.4980773925782,78.54568481445312)" id="svg_11"
+              height="181.987214" width="48.000045" y="-12.447939" x="249.498043" stroke-opacity="null"
+              stroke-width="1.5" fill="#000000"></rect>
+        <rect stroke="#000" transform="rotate(90.17965698242188 276.509033203125,72.05825805664062)" id="svg_12"
+              height="123.968685" width="55.006279" y="10.073923" x="249.005886" stroke-opacity="null"
+              stroke-width="1.5" fill="#000000"></rect>
+        <line stroke-linecap="null" stroke-linejoin="null" id="svg_15" y2="140.4375" x2="257.5" y1="134.4375" x1="219.5"
+              fill-opacity="null" stroke-opacity="null" stroke-width="1.5" stroke="#000" fill="none"></line>
+        <line stroke-linecap="null" stroke-linejoin="null" id="svg_16" y2="135.4375" x2="323.5" y1="142.4375" x1="290.5"
+              fill-opacity="null" stroke-opacity="null" stroke-width="1.5" stroke="#000" fill="none"></line>
+        <ellipse ry="7.5" rx="7" id="svg_18" cy="153.9375" cx="234.5" stroke-opacity="null" stroke-width="1.5"
+                 stroke="#000" fill="#000000"></ellipse>
+        <ellipse ry="7.5" rx="7" id="svg_20" cy="153.9375" cx="306.5" stroke-opacity="null" stroke-width="1.5"
+                 stroke="#000" fill="#000000"></ellipse>
+        <ellipse ry="0.806452" rx="0.806452" id="svg_50" cy="208.342698" cx="349.222771" fill-opacity="null"
+                 stroke-opacity="null" stroke-width="1.5" stroke="#000" fill="#fff"></ellipse>
+        <ellipse ry="0.862069" rx="0.862069" id="svg_56" cy="189.827586" cx="269.482759" fill-opacity="null"
+                 stroke-opacity="null" stroke-width="1.5" stroke="#000" fill="none"></ellipse>
+        <ellipse ry="0.862069" rx="0.862069" id="svg_57" cy="189.827586" cx="278.793104" fill-opacity="null"
+                 stroke-opacity="null" stroke-width="1.5" stroke="#000" fill="none"></ellipse>
+    </g>
+</svg>
