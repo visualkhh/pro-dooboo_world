@@ -1,3 +1,5 @@
+import 'dart:async';
+
 import 'package:diagonal_scrollview/diagonal_scrollview.dart';
 import 'package:dooboo_world/World.dart';
 import 'package:flutter/material.dart';
@@ -33,7 +35,9 @@ class _MyHomePageState extends State<MyHomePage> {
 
   final double _boxSize = 2000.0;
   final Color _boxColor = Colors.white70;
+  Positioned fp = null;
 
+  double _c= 10 ;
   List<Widget> _getChildren() {
     List<Widget> children = [];
     Color childColor = Colors.blueGrey;
@@ -53,12 +57,15 @@ class _MyHomePageState extends State<MyHomePage> {
 //          child: SvgPicture.asset("assets/duckboon.svg"),
 //          child:  Center(child: Text("x:${x}, y:${y}")),
         );
-
-        children.add(Positioned(
+        Positioned positioned = Positioned(
           left: childMargin + (childMargin + childSize) * x,
           top: childMargin + (childMargin + childSize) * y,
           child: cube,
-        ));
+        );
+        if(fp==null){
+          fp = positioned;
+        }
+        children.add(positioned);
       }
     }
 
@@ -68,11 +75,20 @@ class _MyHomePageState extends State<MyHomePage> {
 
   @override
   void initState() {
-
-    init();
+    Timer.periodic(Duration(milliseconds: 200), (timer) {
+      print(DateTime.now());
+      setState(() {
+        _c = _c + 5;
+      });
+    });
+//    Timer(Duration(seconds: 3), () {
+//      print("Yeah, this line is printed after 3 seconds");
+//    });
+//    init();
   }
   init() async{
-    var url = "https://raw.githubusercontent.com/dnfield/flutter_svg/master/example/assets/dart.svg";
+//    var url = "https://raw.githubusercontent.com/dnfield/flutter_svg/master/example/assets/dart.svg";
+    var url = "https://twitter.com/search?q=%23%EB%91%90%EB%B6%80%EC%84%B8%EC%83%81&src=typed_query";
 
     // Await the http get response, then decode the json-formatted responce.
     var response = await http.get(url);
@@ -108,7 +124,11 @@ class _MyHomePageState extends State<MyHomePage> {
           height: _boxSize,
           color: _boxColor,
           child: Stack(
-            children: _getChildren(),
+            children: _getChildren()..add(Positioned(
+              left: _c - 100,
+              top: _c - 100,
+              child: SvgPicture.asset("assets/ducktack.svg"),
+            )),
           ),
         ),
       ),
